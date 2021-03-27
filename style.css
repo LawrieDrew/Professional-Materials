@@ -1,8 +1,7 @@
-/* tried to utilize root for as much styling as possible to reduce excessive elements in style sheet then went in with targeting very specific elements after */
 
 :root {
-    background-color: #a9a9a9;
-    color:#ffff00;
+    background-color: #fafafa;
+    color:#161a14;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     }
@@ -14,29 +13,28 @@
     text-align: center;
     }
     
-    #profile img {
-        border: 5px solid #4682B4;
+    #bio img {
+        border: 5px solid #161a14;
         border-radius: 50%;
         width: 100%;
         align: center;
         margin-top: 2%;
     }
     
-    /* After much trial and error, I am stumped as to why there is no border around my flexbox and its selected elements */
     
     .flex-container {
-        border: 5px #4682B4;
+        border: 5px #161a14;
     }
     
     .row {
         display: flex;
-        border: 5px #4682B4;
+        border: 5px #161a14;
     }
     
     .column {
         flex: 50%;
         padding: 5px;
-        border: 5px #4682B4;
+        border: 5px #161a14;
     }
     
     @media screen and (max-width: 50px) {
@@ -49,7 +47,7 @@
         text-align: center;
         size: 20px; 
         width: 100%;
-        background: #4682B4;
+        background:#fafafa;
     }
     
     .fontawesome {
